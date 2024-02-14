@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+nav a:hover{
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    background-color: rgba(0, 0, 0, 0.089);
+}
+img{
+    width: 580px;
+    height: 340px;
+}
+.img:hover {
+    padding: 1px;
+    transform: scale(1.2); /* o el factor de escala que prefieras */
+
+}
+footer {
+    background-color: #f18da8;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1em;
+}
+
+.boton{
+    text-decoration: none;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 6px 8px 6px;
+    font-size: 20px;
+    color: rgb(15, 15, 15);
+    margin-left: 15px;
+}
+
+.boton:hover{
+    background-color: rgb(51, 2, 97);
+    color: wheat;
+
+}
+
+.marquee-container {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.marquee-container img {
+    display: inline-block;
+    margin-right: 20px; /* Ajusta el margen según sea necesario */
+}
+
+.tarjeta {
+    
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.tarjeta:hover{
+    cursor: pointer;
+    transform: scale(1.1); /* o el factor de escala que prefieras */
+}
+
+
+
