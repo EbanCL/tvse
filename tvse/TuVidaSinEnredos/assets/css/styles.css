@@ -12,6 +12,7 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px;
+
 h1{
 color:#fff;
 }
@@ -38,16 +39,16 @@ main {
 .productos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .producto {
     background-color:white;
-    border: 1px solid #f47a99;
+    border: 5px solid #f47a99;
     border-radius: 5px;
     padding: 20px;
-    width: 25%;
-    margin-bottom: 20px;
+    width: 21%;
+    margin: 20px;
+    margin-left: 30px;
 }
 
 .producto img {
@@ -60,4 +61,19 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
+}
+
+.prdct_text{
+    height: 310px;
+    padding-top: 20px;
+}
+
+.icono {
+    color: #8f91e6;
+    cursor: pointer;
+}
+
+/* Estilo del borde en :hover */
+.icono:hover {
+    color: #f47a99
 }
